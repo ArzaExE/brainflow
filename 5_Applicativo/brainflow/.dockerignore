@@ -1,0 +1,33 @@
+# Dipendenze (reinstallate dentro l'immagine)
+vendor/
+node_modules/
+
+# Cache del bootstrap: contiene riferimenti ai package installati localmente
+# (es. laravel/pail, dev-only) che non esistono nell'immagine --no-dev.
+# Laravel la rigenera automaticamente al primo avvio.
+bootstrap/cache/*.php
+
+# File di ambiente (non deve mai finire nell'immagine)
+.env
+.env.*
+
+# Git e IDE
+.git/
+.gitignore
+.idea/
+.vscode/
+
+# Log e cache locale
+storage/logs/*.log
+storage/framework/cache/data/
+storage/framework/sessions/
+storage/framework/views/
+
+# Test (non servono in produzione)
+tests/
+phpunit.xml
+.phpunit.result.cache
+
+# Documentazione e tool locali
+README.md
+*.md
