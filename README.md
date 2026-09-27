@@ -1,6 +1,6 @@
-# Analisi della Struttura del Progetto & Mappa delle Funzionalità (BrainFlow)
+# Struttura e mappa funzionale (BrainFlow)
 
-Benvenuto in **BrainFlow**, un'applicazione Kanban sviluppata con **Laravel 12**, **Tailwind CSS** e **Alpine.js**. Questo documento mappa in modo strutturato tutte le funzionalità del backend e del frontend, indicando con precisione in quali file sono implementate, e spiega i concetti tecnici più complessi del progetto.
+Benvenuto in **BrainFlow**, un'applicazione Kanban sviluppata con **Laravel 12**, **Tailwind CSS** e **Alpine.js**. Questo documento mappa in modo strutturato tutte le funzionalità del backend e del frontend, indicando con precisione in quali file sono implementate, e spiega i concetti tecnici più complessi del progetto. Il versionamento del progetto è stato gestito tramite gitlab in una struttura dedicata della scuola.
 
 ---
 
